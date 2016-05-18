@@ -1,0 +1,24 @@
+{
+  "name": "staticserver",
+  "version": "1.0.1",
+  "description": "A simple static server for serv your static template (css , js ,html)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "mostafa ebrahimi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "nodemon": "^1.9.2"
+  }
+}
